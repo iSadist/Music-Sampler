@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SWK-gH-t9C">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SWK-gH-t9C">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,7 +13,7 @@
             <objects>
                 <navigationController id="SWK-gH-t9C" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="51R-GT-DJE">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -35,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMT-0I-oWI">
-                                <rect key="frame" x="2" y="66" width="184.5" height="98"/>
+                                <rect key="frame" x="2" y="46" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 1">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -45,7 +43,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BN-4C-5AS">
-                                <rect key="frame" x="188.5" y="66" width="184.5" height="98"/>
+                                <rect key="frame" x="188.5" y="46" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 2">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -55,7 +53,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISw-Uc-sC1">
-                                <rect key="frame" x="2" y="166" width="184.5" height="98.5"/>
+                                <rect key="frame" x="2" y="149.5" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.20393571048479053" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 3">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -65,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSe-Sg-oei">
-                                <rect key="frame" x="188.5" y="166" width="184.5" height="98.5"/>
+                                <rect key="frame" x="188.5" y="149.5" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="0.0" green="0.20393571048479053" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 4">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cax-Tt-pF5">
-                                <rect key="frame" x="2" y="266.5" width="184.5" height="98"/>
+                                <rect key="frame" x="2" y="253" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="0.2819354779430393" green="0.011052485775798648" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 5">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -85,7 +83,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nI-D8-0Oz">
-                                <rect key="frame" x="188.5" y="266.5" width="184.5" height="98"/>
+                                <rect key="frame" x="188.5" y="253" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="0.2819354779430393" green="0.011052485775798648" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 6">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -95,7 +93,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKP-se-99J">
-                                <rect key="frame" x="2" y="366.5" width="184.5" height="98"/>
+                                <rect key="frame" x="2" y="356.5" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="0.57202156016908212" green="0.0029712881083661102" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 7">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -105,7 +103,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mj-54-DlK">
-                                <rect key="frame" x="188.5" y="366.5" width="184.5" height="98"/>
+                                <rect key="frame" x="188.5" y="356.5" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="0.57202156016908212" green="0.0029712881083661102" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 8">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -115,7 +113,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bJ-0N-LPK">
-                                <rect key="frame" x="2" y="466.5" width="184.5" height="98.5"/>
+                                <rect key="frame" x="2" y="460" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.65745048278272034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 9">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -125,7 +123,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dl-c8-vsi">
-                                <rect key="frame" x="188.5" y="466.5" width="184.5" height="98.5"/>
+                                <rect key="frame" x="188.5" y="460" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.65745048278272034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 10">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -135,7 +133,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1S-Sb-H8P">
-                                <rect key="frame" x="188.5" y="567" width="184.5" height="98"/>
+                                <rect key="frame" x="188.5" y="563.5" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="1" green="0.99843376867115941" blue="0.0028394792257889767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 12">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -145,7 +143,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgU-Ce-JSb">
-                                <rect key="frame" x="2" y="567" width="184.5" height="98"/>
+                                <rect key="frame" x="2" y="563.5" width="184.5" height="101.5"/>
                                 <color key="backgroundColor" red="1" green="0.99843376867115941" blue="0.0028394792257889767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sound 11">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -154,6 +152,14 @@
                                     <action selector="soundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zEZ-m4-LJS"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egi-kv-ctB" customClass="DFPBannerView">
+                                <rect key="frame" x="27.5" y="44" width="320" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bJD-PL-oOa"/>
+                                    <constraint firstAttribute="width" constant="320" id="pUL-3X-M8c"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
@@ -163,6 +169,7 @@
                             <constraint firstItem="ISw-Uc-sC1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="2" id="8Hd-Hn-tsm"/>
                             <constraint firstItem="2mj-54-DlK" firstAttribute="leading" secondItem="cKP-se-99J" secondAttribute="trailing" constant="2" id="8SZ-xf-h5D"/>
                             <constraint firstItem="6bJ-0N-LPK" firstAttribute="top" secondItem="cKP-se-99J" secondAttribute="bottom" constant="2" id="CAf-Ke-vdk"/>
+                            <constraint firstItem="egi-kv-ctB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="CRR-gN-xSQ"/>
                             <constraint firstItem="Cax-Tt-pF5" firstAttribute="width" secondItem="8nI-D8-0Oz" secondAttribute="width" id="D7g-HB-O5f"/>
                             <constraint firstItem="ZMT-0I-oWI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="2" id="EQX-m6-uA9"/>
                             <constraint firstItem="cKP-se-99J" firstAttribute="height" secondItem="ZMT-0I-oWI" secondAttribute="height" id="JXV-ZC-NUN"/>
@@ -184,6 +191,7 @@
                             <constraint firstItem="b1S-Sb-H8P" firstAttribute="height" secondItem="2BN-4C-5AS" secondAttribute="height" id="cTR-Al-Psi"/>
                             <constraint firstItem="cKP-se-99J" firstAttribute="width" secondItem="2mj-54-DlK" secondAttribute="width" id="dSM-3x-gP2"/>
                             <constraint firstItem="QSe-Sg-oei" firstAttribute="leading" secondItem="ISw-Uc-sC1" secondAttribute="trailing" constant="2" id="f6U-Hv-qNF"/>
+                            <constraint firstItem="egi-kv-ctB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fyK-7a-ceG"/>
                             <constraint firstItem="4dl-c8-vsi" firstAttribute="leading" secondItem="6bJ-0N-LPK" secondAttribute="trailing" constant="2" id="hlX-SL-IlR"/>
                             <constraint firstItem="4dl-c8-vsi" firstAttribute="height" secondItem="2BN-4C-5AS" secondAttribute="height" id="i9l-uJ-gtO"/>
                             <constraint firstItem="b1S-Sb-H8P" firstAttribute="top" secondItem="4dl-c8-vsi" secondAttribute="bottom" constant="2" id="iC3-OS-AAs"/>
@@ -217,6 +225,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="bannerView" destination="egi-kv-ctB" id="m1i-CR-1YP"/>
                         <outlet property="editButtonRef" destination="Kjy-ea-dCp" id="GUQ-qY-qND"/>
                         <outlet property="view" destination="8bC-Xf-vdC" id="ICb-kU-x0u"/>
                         <outletCollection property="soundButtons" destination="QSe-Sg-oei" collectionClass="NSMutableArray" id="d62-7b-zkB"/>
@@ -247,153 +256,153 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ef-sW-3JA">
-                                <rect key="frame" x="16" y="350.5" width="164" height="30"/>
+                                <rect key="frame" x="16" y="340.5" width="164" height="30"/>
                                 <state key="normal" title="Record"/>
                                 <connections>
                                     <action selector="recordButtonPressed:" destination="xkX-QC-xAt" eventType="touchDown" id="Qbc-WI-H8H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFN-Y5-gkg">
-                                <rect key="frame" x="195" y="350.5" width="164" height="30"/>
+                                <rect key="frame" x="195" y="340.5" width="164" height="30"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
                                     <action selector="playButtonPressed:" destination="xkX-QC-xAt" eventType="touchUpInside" id="02E-Xw-0sv"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5m0-3N-ChT">
-                                <rect key="frame" x="151.5" y="230" width="72" height="21"/>
+                                <rect key="frame" x="151.5" y="220" width="72" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b4V-gV-Jh4">
-                                <rect key="frame" x="161.5" y="639" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="638.5" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720246222" green="1" blue="0.072952223585376896" alpha="0.20202803938356165" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="usN-PQ-LWl"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="52X-K6-Tm7">
-                                <rect key="frame" x="161.5" y="614" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="612.5" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720246222" green="1" blue="0.072952223585376896" alpha="0.20202803938356165" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="S2P-Hp-CW8"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R0q-pV-PTW">
-                                <rect key="frame" x="161.5" y="627" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="626" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720000002" green="1" blue="0.072952223590000004" alpha="0.2020280394" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="lWt-ql-NRF"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghf-yA-Pxr">
-                                <rect key="frame" x="161.5" y="601" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="599" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720000002" green="1" blue="0.072952223590000004" alpha="0.2020280394" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="Jnp-oK-HWI"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgf-Gi-95F">
-                                <rect key="frame" x="161.5" y="575" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="571.5" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720000002" green="1" blue="0.072952223590000004" alpha="0.2020280394" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="KbN-s3-ACD"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHf-Oi-kBK">
-                                <rect key="frame" x="161.5" y="588" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="585" width="52" height="9"/>
                                 <color key="backgroundColor" red="0.037483087720000002" green="1" blue="0.072952223590000004" alpha="0.2020280394" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="bbu-OH-gN3"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQU-4d-ZS2">
-                                <rect key="frame" x="161.5" y="549" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="544.5" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720246222" green="1" blue="0.072952223585376896" alpha="0.20202803938356165" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="bkj-r0-0Rj"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Swz-z5-Hsq">
-                                <rect key="frame" x="161.5" y="562" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="558" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720246222" green="1" blue="0.072952223585376896" alpha="0.20202803938356165" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="nnS-Tb-t2V"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Sy-fX-IFf">
-                                <rect key="frame" x="161.5" y="536" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="531" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720246222" green="1" blue="0.072952223585376896" alpha="0.20202803938356165" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="axy-5r-bcj"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NIq-bq-Dhe">
-                                <rect key="frame" x="161.5" y="522.5" width="52" height="8.5"/>
+                                <rect key="frame" x="161.5" y="517.5" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720000002" green="1" blue="0.072952223590000004" alpha="0.2020280394" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="fc7-6d-w2f"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVo-Qg-4aC">
-                                <rect key="frame" x="161.5" y="509.5" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="504" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720246222" green="1" blue="0.072952223585376896" alpha="0.20202803938356165" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="y4X-ev-98T"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXU-sc-tlo">
-                                <rect key="frame" x="161.5" y="496.5" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="490.5" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720000002" green="1" blue="0.072952223590000004" alpha="0.2020280394" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="Shx-fn-KDd"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BfH-ah-pcY">
-                                <rect key="frame" x="161.5" y="483.5" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="477" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720246222" green="1" blue="0.072952223585376896" alpha="0.20202803938356165" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="NY7-td-o3U"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaU-Di-Bfb">
-                                <rect key="frame" x="161.5" y="470.5" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="463.5" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.037483087720000002" green="1" blue="0.072952223590000004" alpha="0.2020280394" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="XWi-Sp-Fy7"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XW7-f9-h3X">
-                                <rect key="frame" x="161.5" y="457.5" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="449.5" width="52" height="9"/>
                                 <color key="backgroundColor" red="0.94695696723840839" green="1" blue="0.00033646567800926785" alpha="0.19860338184931506" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="Wrt-jk-TMu"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZWN-zc-kpg">
-                                <rect key="frame" x="161.5" y="444.5" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="436" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.9469569672" green="1" blue="0.00033646567799999999" alpha="0.19860338180000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="KVu-nz-IKE"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="syq-Do-b7A">
-                                <rect key="frame" x="161.5" y="431.5" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="422.5" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.94695696723840839" green="1" blue="0.00033646567800926785" alpha="0.19860338184931506" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="Ghl-0d-jTd"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1b-4X-eCU">
-                                <rect key="frame" x="161.5" y="405.5" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="395.5" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="1" green="0.093322322275342873" blue="0.0" alpha="0.20074379280821919" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="F5m-Cv-Cyw"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gH9-e3-9fz">
-                                <rect key="frame" x="161.5" y="418.5" width="52" height="8"/>
+                                <rect key="frame" x="161.5" y="409" width="52" height="8.5"/>
                                 <color key="backgroundColor" red="0.9469569672" green="1" blue="0.00033646567799999999" alpha="0.19860338180000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="pBm-0M-shO"/>
