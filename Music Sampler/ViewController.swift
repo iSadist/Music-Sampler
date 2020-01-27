@@ -4,10 +4,17 @@ import Foundation
 import GoogleMobileAds
 
 class ViewController: UIViewController {
-    
     var samples: [AVAudioPlayer] = []
     var audioPlayer: AVAudioPlayer!
-    var editMode: Bool = false
+    var editMode: Bool = false {
+        didSet {
+            if editMode {
+                self.navigationItem.title = "Tap the button to change"
+            } else {
+                self.navigationItem.title = "Soundboard"
+            }
+        }
+    }
     var selectedButton: Int = 1
     
     let noSoundFilePath: String! = "noSound"
@@ -20,6 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.title = "Soundboard"
         for button in soundButtons {
             button.layer.cornerRadius = 5
             button.clipsToBounds = true
@@ -49,10 +57,10 @@ class ViewController: UIViewController {
             rvc.recordingName = "Sound" + String(selectedButton)
         }
     }
-    
+
     // MARK: IBActions
     
-    @IBAction func soundButtonPressed(_ sender: UIButton) {
+    @IBAction func buttonPressedDown(_ sender: UIButton) {
         let buttonTitleComponents = sender.titleLabel!.text!.components(separatedBy: " ")
         let buttonNumber = Int(buttonTitleComponents[1])!;
         
@@ -67,7 +75,8 @@ class ViewController: UIViewController {
             playSample(index: buttonNumber - 1)
         }
         
-        animate(button: sender)
+        sender.fadeAnimation()
+        sender.pressDownAnimation()
     }
     
     @IBAction func editButtonPressed(_ sender: UIBarButtonItem) {
@@ -87,8 +96,8 @@ class ViewController: UIViewController {
     // MARK: Class functions
     
     private func animate(button: UIButton) {
-        button.alpha = 0.8
-        UIView.transition(with: button, duration: 0.1, options: UIViewAnimationOptions.curveLinear, animations: {
+        button.alpha = 0.75
+        UIView.transition(with: button, duration: 0.05, options: UIViewAnimationOptions.curveLinear, animations: {
             button.alpha = 1.0
         }) { (completed) in
             button.alpha = 1.0
@@ -96,6 +105,7 @@ class ViewController: UIViewController {
     }
     
     func playSample(index: Int) {
+//        guard index >= 0 && index < samples.count else { return }
         let sample = samples[index]
 
         if sample == nil {
@@ -128,15 +138,30 @@ class ViewController: UIViewController {
                 let player = try AVAudioPlayer.init(contentsOf: fullPath)
                 addAudioPlayer(player: player, index: index)
             } catch {
-                addNoSample(index: index)
+                addDefaultSample(index: index)
             }
         } else {
-            addNoSample(index: index)
+            addDefaultSample(index: index)
         }
     }
     
     func addNoSample(index: Int) {
         if let path = Bundle.main.path(forResource: noSoundFilePath, ofType: "m4a") {
+            let url = NSURL.fileURL(withPath: path)
+            do {
+                let player = try AVAudioPlayer.init(contentsOf: url)
+                addAudioPlayer(player: player, index: index)
+            } catch {
+                print("Error occurred")
+            }
+        } else {
+            print("Could not add audio")
+        }
+    }
+    
+    func addDefaultSample(index: Int) {
+        print("Sound\(index)")
+        if let path = Bundle.main.path(forResource: "Sound\(index)", ofType: "m4a") {
             let url = NSURL.fileURL(withPath: path)
             do {
                 let player = try AVAudioPlayer.init(contentsOf: url)
@@ -162,7 +187,7 @@ extension ViewController: GADBannerViewDelegate {
 
     /// Tells the delegate an ad request failed.
     func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
-        print("adView:didFailToReceiveAdWithError: \(error.localizedDescription). Reason: \(error.localizedFailureReason). Recovery suggestion: \(error.localizedRecoverySuggestion)")
+        print("adView:didFailToReceiveAdWithError: \(error.localizedDescription). Reason: \(String(describing: error.localizedFailureReason)). Recovery suggestion: \(String(describing: error.localizedRecoverySuggestion))")
     }
 
     /// Tells the delegate that a full-screen view will be presented in response
