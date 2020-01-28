@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		409CE0E1138F25D7E4B1D2AC /* Pods_Music_Sampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2573F5FE7BAD74AD0B2763B9 /* Pods_Music_Sampler.framework */; };
 		49BA6B8ECB296431F0DE9389 /* Pods_Music_SamplerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C774C8387A708256468E5A /* Pods_Music_SamplerTests.framework */; };
+		59C5A18523DF95AC00FC7263 /* Pods_Music_Sampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2573F5FE7BAD74AD0B2763B9 /* Pods_Music_Sampler.framework */; };
 		80651261E98953CA5907A492 /* Pods_Music_Sampler_Music_SamplerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3FC545DCAFB29CF4126A57 /* Pods_Music_Sampler_Music_SamplerUITests.framework */; };
 		E11613631F7FAC530080AFBE /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11613621F7FAC530080AFBE /* RecordViewController.swift */; };
 		E16BD7AC1F7EECDF00A24DB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16BD7AB1F7EECDF00A24DB0 /* AppDelegate.swift */; };
@@ -63,7 +63,7 @@
 		CE9A36F0CF16D36780640637 /* Pods-Music Sampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Sampler.debug.xcconfig"; path = "Target Support Files/Pods-Music Sampler/Pods-Music Sampler.debug.xcconfig"; sourceTree = "<group>"; };
 		DF3FC545DCAFB29CF4126A57 /* Pods_Music_Sampler_Music_SamplerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Sampler_Music_SamplerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11613621F7FAC530080AFBE /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
-		E16BD7A81F7EECDF00A24DB0 /* Music Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Sampler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16BD7A81F7EECDF00A24DB0 /* Sound Samplifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Samplifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16BD7AB1F7EECDF00A24DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16BD7AD1F7EECDF00A24DB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E16BD7B01F7EECDF00A24DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409CE0E1138F25D7E4B1D2AC /* Pods_Music_Sampler.framework in Frameworks */,
+				59C5A18523DF95AC00FC7263 /* Pods_Music_Sampler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +141,6 @@
 				07ED5A7D03DC40194DAB2E0B /* Pods-Music SamplerTests.debug.xcconfig */,
 				744AEC869890AB5D78C694B8 /* Pods-Music SamplerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,7 +159,7 @@
 		E16BD7A91F7EECDF00A24DB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E16BD7A81F7EECDF00A24DB0 /* Music Sampler.app */,
+				E16BD7A81F7EECDF00A24DB0 /* Sound Samplifier.app */,
 				E16BD7BF1F7EECDF00A24DB0 /* Music SamplerTests.xctest */,
 				E16BD7CA1F7EECDF00A24DB0 /* Music SamplerUITests.xctest */,
 			);
@@ -233,7 +232,7 @@
 			);
 			name = "Music Sampler";
 			productName = "Music Sampler";
-			productReference = E16BD7A81F7EECDF00A24DB0 /* Music Sampler.app */;
+			productReference = E16BD7A81F7EECDF00A24DB0 /* Sound Samplifier.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E16BD7BE1F7EECDF00A24DB0 /* Music SamplerTests */ = {
@@ -655,12 +654,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = Q9L559MT2U;
 				INFOPLIST_FILE = "Music Sampler/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jan-Inc..Music-Sampler2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sound Samplifier";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -672,12 +673,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = Q9L559MT2U;
 				INFOPLIST_FILE = "Music Sampler/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jan-Inc..Music-Sampler2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sound Samplifier";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
